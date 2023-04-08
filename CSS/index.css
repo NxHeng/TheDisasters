@@ -1,0 +1,28 @@
+body {
+    font-family: 'Commissioner', sans-serif !important;
+}
+
+.navbar-nav {
+ font-size: larger;
+}
+
+.title {
+    font-family: 'Gelasio', serif !important;
+}
+
+.bgimage {
+    width:100%;
+    height: 500px;
+    background: url('../Assets/HomeImg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+.hero-content {
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
