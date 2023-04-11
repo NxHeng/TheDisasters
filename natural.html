@@ -13,13 +13,13 @@
     <!--Commissioner-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@200&display=swap" rel="stylesheet">
 
     <!--CSS-->
     <link rel="stylesheet" href="CSS/natural.css">
 
     <!--Bootstrap CSS-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link href="CSS/main.min.css" rel="stylesheet">
 
     <!--Bootstrap JS-->
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
@@ -27,7 +27,7 @@
   <body>
 
     <!--Navigation Bar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-secondary sticky-top shadow">
       <!--Logo-->
       <a class="navbar-brand my-1" href="index.html">
         <img src="\Assets\Logo.png" alt="The Disasters' Logo" width="40" height="40" class="ms-4 d-inline-block align-text-top">
@@ -70,34 +70,34 @@
 
     <!--What do you want to know section-->
     <section id="know-section" class="what-to-know-section p-5">
-        <div class="h2 text-center title">
+        <div class="h2 text-center title text-primary">
             What do you want to know?
         </div>
         <div class="container-fluid">
           <div class="row">
             <div class="col-sm-6 col-md-6 col-lg-3 text-center">
-              <div class="card m-3 shadow bg-body-secondary">
+              <div class="card shadow m-3 bg-secondary border-0">
                 <div class="card-body p-4">
                     <a href="#intro" class="title h5 stretched-link" style="text-decoration: none">Introduction</a>
                 </div>
               </div>
             </div>
             <div class="col-sm-6 col-md-6 col-lg-3 text-center">
-                <div class="card m-3 shadow  bg-body-secondary">
+                <div class="card m-3 shadow bg-secondary border-0">
                     <div class="card-body p-4">
                         <a href="#reasons" class="title h5 stretched-link" style="text-decoration: none">Reasons</a>
                     </div>
                 </div>
             </div>
             <div class="col-sm-6 col-md-6 col-lg-3 text-center">
-                <div class="card m-3 shadow  bg-body-secondary">
+                <div class="card m-3 shadow bg-secondary border-0">
                     <div class="card-body p-4">
                         <a href="#effects" class="title h5 stretched-link" style="text-decoration: none">Effects</a>
                     </div>
                 </div>
             </div>
             <div class="col-sm-6 col-md-6 col-lg-3 text-center">
-                <div class="card m-3 shadow  bg-body-secondary">
+                <div class="card m-3 shadow bg-secondary border-0">
                     <div class="card-body p-4">
                         <a href="#solutions" class="title h5 stretched-link" style="text-decoration: none">Solutions</a>
                     </div>
@@ -108,31 +108,31 @@
       </section>
 
       <!--Introduction Section-->
-      <section id="intro" class="intro-section bg-body-tertiary shadow-lg p-5">
-        <div class="h2 text-center title">
+      <section id="intro" class="intro-section bg-secondary shadow-lg p-5">
+        <div class="h2 text-center title text-primary">
             Introduction
         </div>
         <div class="container-sm">
           <div class="row">
             <div class="col-sm-12 col-md-4 col-lg-4 text-center">
-              <div class="card m-3 shadow">
-                <div class="card-body p-4 h5">
+              <div class="card m-3 shadow bg-primary">
+                <div class="card-body p-4 h5 text-light">
                     Natural disasters are <b>catastrophic events</b> caused by <b>natural phenomena</b> such as geological or meteorological forces. 
                 </div>
               </div>
             </div>
 
             <div class="col-sm-12 col-md-4 col-lg-4 text-center">
-                <div class="card m-3 shadow">
-                  <div class="card-body p-4 h5">
+              <div class="card m-3 shadow bg-primary">
+                <div class="card-body p-4 h5 text-light">
                       These events can cause <b>significant damage</b> to infrastructure, property, and ecosystems, as well as loss of life and displacement of populations.
                   </div>
                 </div>
             </div>
             
             <div class="col-sm-12 col-md-4 col-lg-4 text-center">
-                <div class="card m-3 shadow ">
-                    <div class="card-body p-4 h5">
+              <div class="card m-3 shadow bg-primary">
+                <div class="card-body p-4 h5 text-light">
                         There are many <b>types of natural disasters</b>, including earthquakes, hurricanes, floods, tsunamis, wildfires, and volcanic eruptions. 
                     </div>
                 </div>
@@ -142,7 +142,7 @@
 
       <!--Reasons Section-->
       <section id="reasons" class="reasons-section py-5">
-        <div class="h2 text-center title">
+        <div class="h2 text-center title text-primary">
             Reasons
         </div>
         <div id="natural-carousel" class="carousel slide" data-bs-ride="carousel">
@@ -220,8 +220,8 @@
       </section>
 
       <!--Effects Section-->
-      <section id="effects" class="effects-section bg-body-tertiary p-5 text-center container-fluid shadow-lg">
-        <div class="h2 text-center title">
+      <section id="effects" class="effects-section bg-secondary p-5 text-center container-fluid shadow-lg">
+        <div class="h2 text-center title text-primary">
             Effects
         </div>
         <div class="display-6 effects-text" data-bs-toggle="collapse" href="#lossoflife" role="button" aria-expanded="false" aria-controls="lossoflife">
@@ -238,7 +238,7 @@
         </div>
         <div class="collapse container-sm" id="displacement">
             <div class="h4 m-2 p-4">
-                Natural disasters can result in the displacement of people from their homes and communities, leading to a range of social and economic challenges.
+              Natural disasters can result in the displacement of people from their homes and communities, leading to a range of social and economic challenges.
             </div>
         </div>
         
@@ -247,7 +247,7 @@
         </div>
         <div class="collapse container-sm" id="economic">
             <div class="h4 m-2 p-4">
-                Natural disasters can have significant economic impacts, including loss of livelihoods, damage to businesses and industries, and disruption to trade and commerce.
+              Natural disasters can have significant economic impacts, including loss of livelihoods, damage to businesses and industries, and disruption to trade and commerce.
             </div>
         </div>
 
@@ -256,7 +256,7 @@
         </div>
         <div class="collapse container-sm" id="psychological">
             <div class="h4 m-2 p-4">
-                Natural disasters can have psychological effects on survivors, including trauma, grief, and depression.
+              Natural disasters can have psychological effects on survivors, including trauma, grief, and depression.
             </div>
         </div>
 
@@ -265,7 +265,7 @@
         </div>
         <div class="collapse container-sm" id="infrastructure">
             <div class="h4 m-2 p-4">
-                Natural disasters can damage or destroy infrastructure such as buildings, roads, bridges, and power lines, which can disrupt daily life and impede rescue and recovery efforts.
+              Natural disasters can damage or destroy infrastructure such as buildings, roads, bridges, and power lines, which can disrupt daily life and impede rescue and recovery efforts.
             </div>
         </div>
 
@@ -274,7 +274,7 @@
         </div>
         <div class="collapse container-sm" id="environmental">
             <div class="h4 m-2 p-4">
-                Natural disasters can damage or destroy ecosystems, which can have long-term effects on plant and animal life, soil quality, and water systems.
+              Natural disasters can damage or destroy ecosystems, which can have long-term effects on plant and animal life, soil quality, and water systems.
             </div>
         </div>
       </section>
@@ -283,13 +283,13 @@
 
       <!--Solutions section-->
       <section id="solutions" class="solutions-section p-5">
-        <div class="h2 text-center title">
+        <div class="h2 text-center title text-primary">
             Solutions
         </div>
         <div class="container-sm">
             <div class="row">
                 <div class="col-lg-4 col-md-6 d-flex justify-content-center">
-                    <div class="card m-3 shadow" style="width: 18rem;">
+                    <div class="card m-3 shadow bg-secondary border-0" style="width: 18rem;">
                         <img src="/Assets/warning.jpg" class="card-img-top" alt="Early Warning Systems">
                         <div class="card-body">
                           <p class="card-text"><b>Early warning systems : </b>Developing and implementing effective early warning systems can help to alert people to the potential dangers of natural disasters, allowing them to take precautions and evacuate if necessary.</p>
@@ -297,7 +297,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 d-flex justify-content-center">
-                    <div class="card m-3 shadow" style="width: 18rem;">
+                    <div class="card m-3 shadow bg-secondary border-0" style="width: 18rem;">
                         <img src="/Assets/resistant.jpg" class="card-img-top" alt="Disaster-resistant infrastructure">
                         <div class="card-body">
                           <p class="card-text"><b>Disaster-resistant infrastructure : </b>Building structures that are designed to withstand the effects of natural disasters, such as reinforced buildings, flood barriers, and earthquake-resistant structures.</p>
@@ -305,7 +305,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 d-flex justify-content-center">
-                    <div class="card m-3 shadow" style="width: 18rem;">
+                    <div class="card m-3 shadow bg-secondary border-0" style="width: 18rem;">
                         <img src="/Assets/emergency.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                           <p class="card-text"><b>Emergency preparedness and response planning : </b>Developing emergency preparedness and response plans can help to ensure that communities are ready to respond to natural disasters quickly and effectively.</p>
@@ -313,7 +313,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 d-flex justify-content-center">
-                    <div class="card m-3 shadow" style="width: 18rem;">
+                    <div class="card m-3 shadow bg-secondary border-0" style="width: 18rem;">
                         <img src="/Assets/education.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                           <p class="card-text"><b>Education and awareness-raising : </b>Educating communities about the risks and potential effects of natural disasters can help to increase preparedness and reduce the impact of disasters.</p>
@@ -321,7 +321,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 d-flex justify-content-center">
-                    <div class="card m-3 shadow" style="width: 18rem;">
+                    <div class="card m-3 shadow bg-secondary border-0" style="width: 18rem;">
                         <img src="/Assets/sustainable.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                           <p class="card-text"><b>Sustainable development : </b>Encouraging sustainable development practices, such as avoiding building in areas prone to flooding or landslides, can help to minimize the risks associated with natural disasters.</p>
@@ -329,7 +329,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 d-flex justify-content-center">
-                    <div class="card m-3 shadow" style="width: 18rem;">
+                    <div class="card m-3 shadow bg-secondary border-0" style="width: 18rem;">
                         <img src="/Assets/climate.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                           <p class="card-text"><b>Climate change mitigation : </b>Addressing climate change can help to reduce the frequency and severity of natural disasters, by reducing the likelihood of extreme weather conditions and oceanic activity.</p>
@@ -341,7 +341,7 @@
       </section>
 
     <!--Footer-->
-    <footer id="footer" class="p-5 bg-secondary text-light align-items-center">
+    <footer id="footer" class="p-5 bg-secondary text-dark align-items-center">
       <div class="row">
         <div class="col-lg-4 col-sm-6 pt-2">
           <a class="title h2" href="index.html" style="text-decoration: none">The Disasters</a>
