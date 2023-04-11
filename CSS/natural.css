@@ -27,9 +27,13 @@ body {
     transform: translate(-50%, -50%);
 }
 
-.effects-text:hover {
+.effects-text:hover{
     transform: scale(1.1);
     transition-duration: 0.3s;
+}
+
+.nav-link:hover {
+    font-weight: bold;
 }
 
 .card:hover, .carousel-caption:hover {
