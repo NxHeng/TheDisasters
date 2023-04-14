@@ -28,11 +28,6 @@ body {
     color: white;
   }
 
-
-/* .img {
-    float: right;
-    width: 150px; 
-    margin-left: 10px; 
-  }
-   */
-  
+.yellow-btn{
+    background-color: yellow;
+}
